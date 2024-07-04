@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00ffff;
+    background-image: url("./skybackground.jpg");
+    image-resolution: 10;
+    border-image-width: auto;
+    
+  }
+  
+  .container {
+    
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  #weather-info {
+    margin-top: 20px;
+    background-color: yellow;
+  }
+  
+  #temperature {
+    font-size: 3rem;
+    color: blue;
+  }
+  
+  #description {
+    font-size: 1.5rem;
+    color: green;
+  }
